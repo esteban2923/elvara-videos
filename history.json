@@ -1,5 +1,34 @@
 [
-  {"fecha": "2026-11-05", "concepto": "regalo", "semilla": 0, "texto_instagram": "El regalo de Navidad que sí va a usar (manual)", "audio_instagram": "Jingle Bells Disco (Instrumental) - Oshi", "hora": "20:30"},
-  {"fecha": "2026-11-05", "concepto": "unboxing", "semilla": 0, "texto_instagram": "¿No sabes qué regalar esta Navidad? (manual)", "audio_instagram": "Holiday Bells - Scott Dugdale", "hora": "21:30"},
-  {"fecha": "2026-11-05", "concepto": "ritual", "semilla": 0, "texto_instagram": "Regala un momento para cuidarse (manual)", "audio_instagram": "Holiday Season (Instrumental) - Julia Gartha", "hora": "22:30"}
+ {
+  "fecha": "2026-11-05",
+  "concepto": "regalo",
+  "semilla": 0,
+  "texto_instagram": "El regalo de Navidad que sí va a usar (manual)",
+  "audio_instagram": "Jingle Bells Disco (Instrumental) - Oshi",
+  "hora": "20:30"
+ },
+ {
+  "fecha": "2026-11-05",
+  "concepto": "unboxing",
+  "semilla": 0,
+  "texto_instagram": "¿No sabes qué regalar esta Navidad? (manual)",
+  "audio_instagram": "Holiday Bells - Scott Dugdale",
+  "hora": "21:30"
+ },
+ {
+  "fecha": "2026-11-05",
+  "concepto": "ritual",
+  "semilla": 0,
+  "texto_instagram": "Regala un momento para cuidarse (manual)",
+  "audio_instagram": "Holiday Season (Instrumental) - Julia Gartha",
+  "hora": "22:30"
+ },
+ {
+  "fecha": "2026-11-06",
+  "concepto": "pregunta",
+  "semilla": 20261106,
+  "texto_instagram": "¿Qué color elegirías? Rojo, ámbar, azul o morado",
+  "audio_instagram": "Christmas Miracle - Giulio Cercato",
+  "hora": "20:30"
+ }
 ]
