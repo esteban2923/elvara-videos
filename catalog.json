@@ -842,6 +842,39 @@
           ]
         ]
       ]
+    },
+    "h_codigo": {
+      "story": true,
+      "christmas_only": true,
+      "scenes": [
+        [
+          "full",
+          "photo_red",
+          [
+            "CÓDIGO NAVIDAD10"
+          ],
+          [
+            "10 % de\ndescuento"
+          ],
+          [
+            "Hasta el 25 de diciembre"
+          ]
+        ],
+        [
+          "photo",
+          "photo_kit",
+          [
+            "ENVÍO GRATIS"
+          ],
+          [
+            "Usa NAVIDAD10",
+            "Regálala con -10 %"
+          ],
+          [
+            "Enlace en la bio"
+          ]
+        ]
+      ]
     }
   },
   "instagram_audio_ids": {

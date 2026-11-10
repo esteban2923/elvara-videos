@@ -97,5 +97,14 @@
     "texto_instagram": "",
     "audio_instagram": "",
     "hora": "22:30"
+  },
+  {
+    "fecha": "2026-11-10",
+    "tipo": "historia",
+    "concepto": "h_codigo",
+    "semilla": 20261111,
+    "texto_instagram": "",
+    "audio_instagram": "",
+    "hora": "19:30"
   }
 ]
