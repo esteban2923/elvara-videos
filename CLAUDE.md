@@ -37,7 +37,7 @@ No publiques más que esto: publicar en exceso hunde el alcance y puede hacer qu
    - **Historia**: `providers` instagram + facebook, `autoPublish: true`, `instagramData: {type: "STORY"}`, `facebookData: {type: "STORY"}`, `text: ""` (las historias no llevan texto), `media: [URL raw]`.
 8. **Textos de los reels**: escribe cada reel con un texto **nuevo** (no copies los de días anteriores ni los otros reels del día; revisa `history.json`). Gancho en la primera línea, 2-3 frases sobre el producto según el concepto, "99 € · Envío gratis", hasta el 25-12 inclusive la línea "🎁 Código NAVIDAD10: 10 % de descuento hasta el 25 de diciembre" (después del 25-12 quítala; el código caduca), "👉 elvara-beauty.com (enlace en la bio)", una pregunta para comentarios y 6-9 hashtags (mezcla fijos #ELVARA #mascaraLED con otros del concepto). Para TikTok, texto más corto con #fyp #parati.
    - **Prohibido** prometer resultados médicos o de salud (acné, arrugas, colágeno, curar, eliminar…). Habla de rutina, autocuidado, diseño, modos de luz, comodidad y regalo.
-   - Mientras el producto esté "bajo pedido", no prometas entrega antes de Navidad.
+   - El producto está **en stock** (envío desde Mollerussa, con seguimiento). Puedes decir "en stock" y "envío gratis", pero no prometas una fecha concreta de entrega.
 9. **Avisar al usuario** con PushNotification: "ELVARA: 3 reels (12:30, 16:30, 20:30) y 3 historias programados. TikTok: abre el aviso de Metricool a cada hora de reel para ponerle canción." y cualquier problema.
 
 ## Si algo falla
