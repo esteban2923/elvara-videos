@@ -4,7 +4,8 @@
 Uso:
   python3 gen.py --concept regalo --seed 20261106 --date 2026-11-06 --out out/2026-11-06.mp4
   python3 gen.py --concept regalo --seed 20261106 --date 2026-11-06 --preview out/prev.jpg
-  python3 gen.py --list            (muestra conceptos disponibles hoy)
+  python3 gen.py --list            (conceptos de reel disponibles hoy)
+  python3 gen.py --list-stories    (conceptos de historia disponibles hoy, vídeos cortos de ~7 s)
 """
 import argparse, datetime as dt, json, os, random, subprocess, sys
 import cv2, numpy as np
@@ -212,17 +213,20 @@ class Video:
         g = min(1.0, (self.total - t) / 0.4)
         return np.clip(out * max(g, 0), 0, 255).astype(np.uint8)
 
-def available(date):
+def available(date, story=False):
     xmas = date <= dt.date.fromisoformat(CAT["christmas_until"])
-    return [c for c, v in CAT["concepts"].items() if xmas or not v.get("christmas_only")]
+    return [c for c, v in CAT["concepts"].items()
+            if (xmas or not v.get("christmas_only")) and bool(v.get("story")) == story]
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--concept"); ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--date", default=dt.date.today().isoformat())
     ap.add_argument("--out"); ap.add_argument("--preview"); ap.add_argument("--list", action="store_true")
+    ap.add_argument("--list-stories", action="store_true")
     a = ap.parse_args(); d = dt.date.fromisoformat(a.date)
     if a.list: print("\n".join(available(d))); sys.exit()
+    if a.list_stories: print("\n".join(available(d, story=True))); sys.exit()
     v = Video(a.concept, a.seed, d)
     print(json.dumps({"concept": a.concept, "seconds": round(v.total, 2),
                       "scenes": [{k: s.get(k) for k in ("kind", "src", "k", "t", "s")} for s in v.scenes]}, ensure_ascii=False))

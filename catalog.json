@@ -3,118 +3,883 @@
   "web": "elvara-beauty.com",
   "christmas_until": "2026-12-25",
   "categories": {
-    "box": ["c1", "c10"],
-    "reveal": ["c2", "c15", "c17"],
-    "accessories": ["c11"],
-    "controller": ["c8", "c16"],
-    "red": ["c4", "c12", "c13", "c18", "c19"],
-    "amber": ["c5", "c21"],
-    "blue": ["c6", "c20"],
-    "purple": ["c7"],
-    "flex": ["c9", "c14", "c18"],
-    "photo_kit": ["p01"],
-    "photo_leds": ["p02"],
-    "photo_controller": ["p03", "p04"],
-    "photo_red": ["p05", "p07", "p09"],
-    "photo_blue": ["p06"],
-    "photo_purple": ["p08"],
-    "photo_amber": ["p10"]
+    "box": [
+      "c1",
+      "c10"
+    ],
+    "reveal": [
+      "c2",
+      "c15",
+      "c17"
+    ],
+    "accessories": [
+      "c11"
+    ],
+    "controller": [
+      "c8",
+      "c16"
+    ],
+    "red": [
+      "c4",
+      "c12",
+      "c13",
+      "c18",
+      "c19"
+    ],
+    "amber": [
+      "c5",
+      "c21"
+    ],
+    "blue": [
+      "c6",
+      "c20"
+    ],
+    "purple": [
+      "c7"
+    ],
+    "flex": [
+      "c9",
+      "c14",
+      "c18"
+    ],
+    "photo_kit": [
+      "p01"
+    ],
+    "photo_leds": [
+      "p02"
+    ],
+    "photo_controller": [
+      "p03",
+      "p04"
+    ],
+    "photo_red": [
+      "p05",
+      "p07",
+      "p09"
+    ],
+    "photo_blue": [
+      "p06"
+    ],
+    "photo_purple": [
+      "p08"
+    ],
+    "photo_amber": [
+      "p10"
+    ]
   },
   "concepts": {
     "regalo": {
       "christmas_only": true,
       "scenes": [
-        ["box", "box", ["IDEA DE REGALO", "NAVIDAD"], ["El regalo que\nsí va a usar", "El regalo que\nva a enamorar"], [""]],
-        ["box", "red", ["ÉLVARA"], ["Máscara LED"], ["Inalámbrica, con mando y pantalla", "4 modos de luz en una sola máscara"]],
-        ["box", "amber", ["MODOS DE LUZ"], ["Ámbar"], [""]],
-        ["box", "blue", ["MODOS DE LUZ"], ["Azul"], [""]],
-        ["box", "purple", ["MODOS DE LUZ"], ["Morado"], [""]],
-        ["photo", "photo_kit", ["LISTA PARA REGALAR"], ["Todo incluido"], ["Caja premium con todos los accesorios"]]
+        [
+          "box",
+          "box",
+          [
+            "IDEA DE REGALO",
+            "NAVIDAD"
+          ],
+          [
+            "El regalo que\nsí va a usar",
+            "El regalo que\nva a enamorar"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "red",
+          [
+            "ÉLVARA"
+          ],
+          [
+            "Máscara LED"
+          ],
+          [
+            "Inalámbrica, con mando y pantalla",
+            "4 modos de luz en una sola máscara"
+          ]
+        ],
+        [
+          "box",
+          "amber",
+          [
+            "MODOS DE LUZ"
+          ],
+          [
+            "Ámbar"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "blue",
+          [
+            "MODOS DE LUZ"
+          ],
+          [
+            "Azul"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "purple",
+          [
+            "MODOS DE LUZ"
+          ],
+          [
+            "Morado"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "photo",
+          "photo_kit",
+          [
+            "LISTA PARA REGALAR"
+          ],
+          [
+            "Todo incluido"
+          ],
+          [
+            "Caja premium con todos los accesorios"
+          ]
+        ]
       ]
     },
     "unboxing": {
       "scenes": [
-        ["box", "box", ["UNBOXING"], ["Mira lo que\nha llegado", "Unboxing\nÉLVARA"], [""]],
-        ["box", "reveal", ["UNBOXING"], ["Silicona suave", "Primera impresión"], ["Ligera y flexible", ""]],
-        ["box", "accessories", ["INCLUYE"], ["Todo lo necesario"], ["Protectores de ojos · cinta\nmando · cable USB"]],
-        ["box", "red", [""], ["Y se enciende así", "Y ahora... luz"], [""]],
-        ["box", "flex", ["DISEÑO"], ["Se adapta al rostro"], [""]]
+        [
+          "box",
+          "box",
+          [
+            "UNBOXING"
+          ],
+          [
+            "Mira lo que\nha llegado",
+            "Unboxing\nÉLVARA"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "reveal",
+          [
+            "UNBOXING"
+          ],
+          [
+            "Silicona suave",
+            "Primera impresión"
+          ],
+          [
+            "Ligera y flexible",
+            ""
+          ]
+        ],
+        [
+          "box",
+          "accessories",
+          [
+            "INCLUYE"
+          ],
+          [
+            "Todo lo necesario"
+          ],
+          [
+            "Protectores de ojos · cinta\nmando · cable USB"
+          ]
+        ],
+        [
+          "box",
+          "red",
+          [
+            ""
+          ],
+          [
+            "Y se enciende así",
+            "Y ahora... luz"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "flex",
+          [
+            "DISEÑO"
+          ],
+          [
+            "Se adapta al rostro"
+          ],
+          [
+            ""
+          ]
+        ]
       ]
     },
     "colores": {
       "scenes": [
-        ["box", "red", ["4 LUCES · 1 MÁSCARA", "¿CUÁL ES LA TUYA?"], ["Rojo"], [""]],
-        ["box", "amber", ["4 LUCES · 1 MÁSCARA", "¿CUÁL ES LA TUYA?"], ["Ámbar"], [""]],
-        ["box", "blue", ["4 LUCES · 1 MÁSCARA", "¿CUÁL ES LA TUYA?"], ["Azul"], [""]],
-        ["box", "purple", ["4 LUCES · 1 MÁSCARA", "¿CUÁL ES LA TUYA?"], ["Morado"], [""]],
-        ["box", "controller", ["FÁCIL DE USAR"], ["Cambia con un botón", "Elige modo y tiempo"], ["Mando con pantalla"]]
+        [
+          "box",
+          "red",
+          [
+            "4 LUCES · 1 MÁSCARA",
+            "¿CUÁL ES LA TUYA?"
+          ],
+          [
+            "Rojo"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "amber",
+          [
+            "4 LUCES · 1 MÁSCARA",
+            "¿CUÁL ES LA TUYA?"
+          ],
+          [
+            "Ámbar"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "blue",
+          [
+            "4 LUCES · 1 MÁSCARA",
+            "¿CUÁL ES LA TUYA?"
+          ],
+          [
+            "Azul"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "purple",
+          [
+            "4 LUCES · 1 MÁSCARA",
+            "¿CUÁL ES LA TUYA?"
+          ],
+          [
+            "Morado"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "controller",
+          [
+            "FÁCIL DE USAR"
+          ],
+          [
+            "Cambia con un botón",
+            "Elige modo y tiempo"
+          ],
+          [
+            "Mando con pantalla"
+          ]
+        ]
       ]
     },
     "ritual": {
       "scenes": [
-        ["box", "red", ["TU MOMENTO", "AUTOCUIDADO"], ["Un ritual de\ncuidado en casa", "10 minutos\nsolo para ti"], [""]],
-        ["box", "controller", ["FÁCIL DE USAR"], ["Elige modo y tiempo"], ["Mando con pantalla y temporizador"]],
-        ["box", "blue", ["4 MODOS DE LUZ"], ["Azul"], [""]],
-        ["box", "flex", ["CÓMODA"], ["Flexible y ligera"], ["Se adapta a tu rostro"]],
-        ["photo", "photo_amber", ["INALÁMBRICA"], ["Úsala donde quieras"], [""]]
+        [
+          "box",
+          "red",
+          [
+            "TU MOMENTO",
+            "AUTOCUIDADO"
+          ],
+          [
+            "Un ritual de\ncuidado en casa",
+            "10 minutos\nsolo para ti"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "controller",
+          [
+            "FÁCIL DE USAR"
+          ],
+          [
+            "Elige modo y tiempo"
+          ],
+          [
+            "Mando con pantalla y temporizador"
+          ]
+        ],
+        [
+          "box",
+          "blue",
+          [
+            "4 MODOS DE LUZ"
+          ],
+          [
+            "Azul"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "flex",
+          [
+            "CÓMODA"
+          ],
+          [
+            "Flexible y ligera"
+          ],
+          [
+            "Se adapta a tu rostro"
+          ]
+        ],
+        [
+          "photo",
+          "photo_amber",
+          [
+            "INALÁMBRICA"
+          ],
+          [
+            "Úsala donde quieras"
+          ],
+          [
+            ""
+          ]
+        ]
       ]
     },
     "cuentaatras": {
       "christmas_only": true,
       "scenes": [
-        ["box", "box", ["NAVIDAD"], ["Quedan {dias} días\npara Navidad"], ["¿Ya tienes el regalo?"]],
-        ["box", "reveal", ["IDEA DE REGALO"], ["Máscara LED ÉLVARA"], [""]],
-        ["box", "red", ["4 MODOS DE LUZ"], ["Rojo"], [""]],
-        ["box", "purple", ["4 MODOS DE LUZ"], ["Morado"], [""]],
-        ["photo", "photo_kit", ["LISTA PARA REGALAR"], ["Caja premium"], ["Con todos los accesorios"]]
+        [
+          "box",
+          "box",
+          [
+            "NAVIDAD"
+          ],
+          [
+            "Quedan {dias} días\npara Navidad"
+          ],
+          [
+            "¿Ya tienes el regalo?"
+          ]
+        ],
+        [
+          "box",
+          "reveal",
+          [
+            "IDEA DE REGALO"
+          ],
+          [
+            "Máscara LED ÉLVARA"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "red",
+          [
+            "4 MODOS DE LUZ"
+          ],
+          [
+            "Rojo"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "purple",
+          [
+            "4 MODOS DE LUZ"
+          ],
+          [
+            "Morado"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "photo",
+          "photo_kit",
+          [
+            "LISTA PARA REGALAR"
+          ],
+          [
+            "Caja premium"
+          ],
+          [
+            "Con todos los accesorios"
+          ]
+        ]
       ]
     },
     "pregunta": {
       "scenes": [
-        ["box", "red", ["¿QUÉ COLOR ELEGIRÍAS?"], ["1 · Rojo"], ["Comenta tu número"]],
-        ["box", "amber", ["¿QUÉ COLOR ELEGIRÍAS?"], ["2 · Ámbar"], ["Comenta tu número"]],
-        ["box", "blue", ["¿QUÉ COLOR ELEGIRÍAS?"], ["3 · Azul"], ["Comenta tu número"]],
-        ["box", "purple", ["¿QUÉ COLOR ELEGIRÍAS?"], ["4 · Morado"], ["Comenta tu número"]]
+        [
+          "box",
+          "red",
+          [
+            "¿QUÉ COLOR ELEGIRÍAS?"
+          ],
+          [
+            "1 · Rojo"
+          ],
+          [
+            "Comenta tu número"
+          ]
+        ],
+        [
+          "box",
+          "amber",
+          [
+            "¿QUÉ COLOR ELEGIRÍAS?"
+          ],
+          [
+            "2 · Ámbar"
+          ],
+          [
+            "Comenta tu número"
+          ]
+        ],
+        [
+          "box",
+          "blue",
+          [
+            "¿QUÉ COLOR ELEGIRÍAS?"
+          ],
+          [
+            "3 · Azul"
+          ],
+          [
+            "Comenta tu número"
+          ]
+        ],
+        [
+          "box",
+          "purple",
+          [
+            "¿QUÉ COLOR ELEGIRÍAS?"
+          ],
+          [
+            "4 · Morado"
+          ],
+          [
+            "Comenta tu número"
+          ]
+        ]
       ]
     },
     "detalles": {
       "scenes": [
-        ["full", "photo_leds", ["POR DENTRO"], ["LEDs en\ntoda la cara"], [""]],
-        ["full", "photo_controller", ["CONTROL"], ["Mando con\npantalla"], [""]],
-        ["full", "photo_red", ["DISEÑO"], ["Silicona\nflexible"], [""]],
-        ["full", "photo_kit", ["INCLUYE"], ["Todo listo\npara usar"], [""]]
+        [
+          "full",
+          "photo_leds",
+          [
+            "POR DENTRO"
+          ],
+          [
+            "LEDs en\ntoda la cara"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_controller",
+          [
+            "CONTROL"
+          ],
+          [
+            "Mando con\npantalla"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_red",
+          [
+            "DISEÑO"
+          ],
+          [
+            "Silicona\nflexible"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_kit",
+          [
+            "INCLUYE"
+          ],
+          [
+            "Todo listo\npara usar"
+          ],
+          [
+            ""
+          ]
+        ]
       ]
     },
     "pov": {
       "scenes": [
-        ["box", "box", ["POV"], ["Te regalan esto", "Por fin llega\ntu pedido"], [""]],
-        ["box", "reveal", [""], ["Lo abres...", "Lo sacas de la caja..."], [""]],
-        ["box", "red", [""], ["...y se enciende", "...y descubres esto"], [""]],
-        ["box", "purple", [""], ["4 modos de luz"], [""]],
-        ["box", "flex", [""], ["Y se adapta a tu cara"], [""]]
+        [
+          "box",
+          "box",
+          [
+            "POV"
+          ],
+          [
+            "Te regalan esto",
+            "Por fin llega\ntu pedido"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "reveal",
+          [
+            ""
+          ],
+          [
+            "Lo abres...",
+            "Lo sacas de la caja..."
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "red",
+          [
+            ""
+          ],
+          [
+            "...y se enciende",
+            "...y descubres esto"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "purple",
+          [
+            ""
+          ],
+          [
+            "4 modos de luz"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "box",
+          "flex",
+          [
+            ""
+          ],
+          [
+            "Y se adapta a tu cara"
+          ],
+          [
+            ""
+          ]
+        ]
       ]
     },
     "galeria": {
       "scenes": [
-        ["full", "photo_red", ["ÉLVARA"], ["Máscara LED"], [""]],
-        ["full", "photo_amber", ["MODOS DE LUZ"], ["Ámbar"], [""]],
-        ["full", "photo_blue", ["MODOS DE LUZ"], ["Azul"], [""]],
-        ["full", "photo_purple", ["MODOS DE LUZ"], ["Morado"], [""]]
+        [
+          "full",
+          "photo_red",
+          [
+            "ÉLVARA"
+          ],
+          [
+            "Máscara LED"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_amber",
+          [
+            "MODOS DE LUZ"
+          ],
+          [
+            "Ámbar"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_blue",
+          [
+            "MODOS DE LUZ"
+          ],
+          [
+            "Azul"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_purple",
+          [
+            "MODOS DE LUZ"
+          ],
+          [
+            "Morado"
+          ],
+          [
+            ""
+          ]
+        ]
+      ]
+    },
+    "h_oferta": {
+      "story": true,
+      "scenes": [
+        [
+          "full",
+          "photo_red",
+          [
+            "ÉLVARA"
+          ],
+          [
+            "Máscara LED\ninalámbrica",
+            "Tu momento\nde luz"
+          ],
+          [
+            "4 modos de luz"
+          ]
+        ],
+        [
+          "photo",
+          "photo_kit",
+          [
+            "ENVÍO GRATIS"
+          ],
+          [
+            "Solo 99 €",
+            "99 € · todo incluido"
+          ],
+          [
+            "Enlace en la bio"
+          ]
+        ]
+      ]
+    },
+    "h_color": {
+      "story": true,
+      "scenes": [
+        [
+          "box",
+          "red",
+          [
+            "ENCUESTA"
+          ],
+          [
+            "¿Rojo o morado?",
+            "¿Qué luz eliges?"
+          ],
+          [
+            "Escríbenos tu color"
+          ]
+        ],
+        [
+          "box",
+          "purple",
+          [
+            "ENCUESTA"
+          ],
+          [
+            "¿Rojo o morado?",
+            "¿Qué luz eliges?"
+          ],
+          [
+            "Escríbenos tu color"
+          ]
+        ]
+      ]
+    },
+    "h_rutina": {
+      "story": true,
+      "scenes": [
+        [
+          "box",
+          "controller",
+          [
+            "AUTOCUIDADO"
+          ],
+          [
+            "10 minutos\nsolo para ti",
+            "Tu rutina\nen casa"
+          ],
+          [
+            "Elige modo y tiempo"
+          ]
+        ],
+        [
+          "full",
+          "photo_blue",
+          [
+            "INALÁMBRICA"
+          ],
+          [
+            "Úsala donde\nquieras"
+          ],
+          [
+            ""
+          ]
+        ]
+      ]
+    },
+    "h_regalo": {
+      "story": true,
+      "christmas_only": true,
+      "scenes": [
+        [
+          "box",
+          "box",
+          [
+            "IDEA DE REGALO"
+          ],
+          [
+            "Quedan {dias} días\npara Navidad"
+          ],
+          [
+            "¿Ya tienes el regalo?"
+          ]
+        ],
+        [
+          "photo",
+          "photo_kit",
+          [
+            "LISTA PARA REGALAR"
+          ],
+          [
+            "Caja premium"
+          ],
+          [
+            "Enlace en la bio"
+          ]
+        ]
+      ]
+    },
+    "h_detalle": {
+      "story": true,
+      "scenes": [
+        [
+          "photo",
+          "photo_leds",
+          [
+            "POR DENTRO"
+          ],
+          [
+            "LEDs en\ntoda la cara"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          "full",
+          "photo_controller",
+          [
+            "CONTROL"
+          ],
+          [
+            "Mando con\npantalla"
+          ],
+          [
+            ""
+          ]
+        ]
       ]
     }
   },
   "instagram_audio_ids": {
     "christmas": [
-      ["1938471246729354", "Jingle Bells Disco (Instrumental) - Oshi"],
-      ["193842924859531", "Holiday Bells - Scott Dugdale"],
-      ["1803254000319670", "Holiday Season (Instrumental) - Julia Gartha"],
-      ["2258842822174278", "Christmas Miracle - Giulio Cercato"],
-      ["134704783895418", "Deck The Halls - Scott Dugdale"],
-      ["1872656819429080", "Jingle Bells - Brent Bourgeois"]
+      [
+        "1938471246729354",
+        "Jingle Bells Disco (Instrumental) - Oshi"
+      ],
+      [
+        "193842924859531",
+        "Holiday Bells - Scott Dugdale"
+      ],
+      [
+        "1803254000319670",
+        "Holiday Season (Instrumental) - Julia Gartha"
+      ],
+      [
+        "2258842822174278",
+        "Christmas Miracle - Giulio Cercato"
+      ],
+      [
+        "134704783895418",
+        "Deck The Halls - Scott Dugdale"
+      ],
+      [
+        "1872656819429080",
+        "Jingle Bells - Brent Bourgeois"
+      ]
     ],
     "general": [
-      ["398138275855075", "Adore - Tash"],
-      ["2098310263661733", "Angelina (feat. Duane) - Afro Sound Machine"]
+      [
+        "398138275855075",
+        "Adore - Tash"
+      ],
+      [
+        "2098310263661733",
+        "Angelina (feat. Duane) - Afro Sound Machine"
+      ]
     ]
   }
 }
